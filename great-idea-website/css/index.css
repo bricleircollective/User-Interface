@@ -79,6 +79,14 @@ h2{
 	margin-top: 40px;
 }
 
+h3{
+	font-family: sans-serif;
+	border: 1px solid black;
+	width: 15%;	
+	padding: 10px auto;
+	margin-left: 80px;
+}
+
 header{
 	display: inline-block;
 }
@@ -97,10 +105,15 @@ a:link, a:hover, a:active, a:visited{
 
 .row {
 	display: flex;
+	margin: 20px auto;
+	padding: 20px auto;
   }
   
 .column {
 	flex: 50%;
+	margin: 20px auto;
+	padding: 20px auto;
+	width: 80%;
 }
 
 #bodyimage{
