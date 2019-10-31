@@ -80,25 +80,39 @@ h2{
 	margin: 30px;
 	padding: 10px;
 	width: 90%;
+	text-align: left;
 }
 
-h3{
-	font-family: sans-serif;
-	border: 2px solid black;
-	width: 15%;	
-	padding: 10px auto;
-	margin-left: 80px;
+.column .button{
+	-webkit-transitioni-duration: 0.4s;
+	transition-duration: 0.4s;
+	width: 20%;	
+	padding: 10px 10px 10px 10px;
+	margin: 0px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+}
+.column .button:hover{
+	background-color:red;
+	color: white;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 nav{
 	display: inline-block;
 	margin: 5% auto;
 	padding: 5% auto;
+	overflow: hidden;
+	background-color: yellow;
+}
+.sticky{
+	position:fixed;
+	top: 0;
+	width: 100%;
 }
 
 a:link, a:hover, a:active, a:visited{
-	color: gray;
-	text-decoration: none;
+	color: red;
+	text-decoration: underline overline solid red;
 	padding: 5% auto;
 	margin: 40px 40px;
 }
@@ -106,8 +120,8 @@ a:link, a:hover, a:active, a:visited{
 	display: inline-block;
 	width: 75%;
 	padding: 5% auto;
-	margin: 10%;
-	border-bottom: 3px sold gray;
+	margin: 3%;
+	border-bottom: 3px solid red;
 }
 
 .row {
@@ -119,21 +133,29 @@ a:link, a:hover, a:active, a:visited{
   
 .column {
 	flex: 100%;
-	margin: 10px 60px 10px 60px;
-	padding: 80px auto;
+	margin: 10px 30px 10px 10px;
+	padding: 0px;
 	width: 100%;
 	text-align: left;
 }
 
 #bodyimage{
-	width: 50%;
-	margin: 80px;
-	padding: 100px;
+	width: 100%;
+	margin: 10px;
+	padding: 10px;
 }
 
 #contact{
 	text-align: left;
 	width: 75%;
-	margin: 5%;
-	padding: 5%;
+	margin: 10px;
+	padding: 10px;
+	border-top: 3px solid red;
+}
+
+.copyright{
+	text-align: center;
+	width: 75%;
+	margin-left: 75px;
+	padding-left: 50px;
 }
